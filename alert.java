@@ -47,9 +47,7 @@ public class alert {
 		d.findElement(By.id("j_idt88:j_idt108")).click();
 		Thread.sleep(3000);
 		
-		d.manage().window().minimize();
-		Thread.sleep(3000);
-		d.manage().window().fullscreen();
+		
 
 		
 
