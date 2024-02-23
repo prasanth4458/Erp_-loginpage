@@ -50,7 +50,8 @@ public class alert {
 		d.manage().window().minimize();
 		Thread.sleep(3000);
 		d.manage().window().fullscreen();
-		
+
+		d.quit
 
 	}
 
