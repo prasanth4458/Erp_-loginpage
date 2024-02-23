@@ -18,7 +18,7 @@ public class drag_drop {
 //		WebElement one=d.findElement(By.id("form:drag"));
 //		WebElement two=d.findElement(By.id("form:drop"));
      	Actions a=new Actions(d);
-//		//a.dragAndDrop(one, two).perform();
+		//a.dragAndDrop(one, two).perform();
 	
 //		a.clickAndHold(one).moveToElement(two).release(two).perform();//alternative method 
 		WebElement draggable = d.findElement(By.id("form:conpnl"));
